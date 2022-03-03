@@ -51,9 +51,6 @@ ul .input-skill{
 }
 
 .unsure-container{
-    justify-content: center;
-    margin-left: 50px;
-    margin-top: 50px;
     width: 300px;
     align-content: center;
     border-radius: 10px;
@@ -63,4 +60,7 @@ ul .input-skill{
     background-color: white;
     box-shadow: 10px 10px 10px gray;
 
+}
+.container{
+    padding: 20px;
 }

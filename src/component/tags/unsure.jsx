@@ -8,7 +8,7 @@ class Unsure extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            skills: []
+            skills: ["Basketball"]
         }
         this.inputRef = React.createRef()
     }
@@ -49,6 +49,7 @@ class Unsure extends Component {
     render() {
         const {skills} = this.state
         return (
+            <div className="container">
             <div className="unsure-container">
                 <h1> Maybe </h1>
                 <img src={image} height={200} width={200} />
@@ -64,6 +65,7 @@ class Unsure extends Component {
                         </li>
                     </ul>
                 </div>
+            </div>
             </div>
         )
     }

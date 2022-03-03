@@ -8,7 +8,7 @@ class Hate extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            skills: []
+            skills: ["Running"]
         }
         this.inputRef = React.createRef()
     }
@@ -49,6 +49,7 @@ class Hate extends Component {
     render() {
         const {skills} = this.state
         return (
+            <div className="container">
             <div className="dislike-container">
                 <h1> Definitely not! </h1>
                 <img src={image} height={200} width={200} />
@@ -64,6 +65,7 @@ class Hate extends Component {
                         </li>
                     </ul>
                 </div>
+            </div>
             </div>
         )
     }

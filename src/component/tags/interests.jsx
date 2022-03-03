@@ -8,7 +8,7 @@ class Interets extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            skills: []
+            skills: ["Swimming"]
         }
         this.inputRef = React.createRef()
     }
@@ -49,8 +49,9 @@ class Interets extends Component {
     render() {
         const {skills} = this.state
         return (
+            <div className="container">
             <div className="interest-container">
-                <h1> I'm in </h1>
+                <h1> I'm In </h1>
                 <img src={image} height={200} width={200} />
                 <div className="skill">
                     <ul>
@@ -60,10 +61,11 @@ class Interets extends Component {
                             )
                         }) }
                         <li className="input-skill">
-                            <input placeholder="Add Interests" onKeyDown={this.addSkill} type="text" size="4" ref={this.inputRef} />
+                            <input placeholder="Add Interest" onKeyDown={this.addSkill} type="text" size="4" ref={this.inputRef} />
                         </li>
                     </ul>
                 </div>
+            </div>
             </div>
         )
     }
