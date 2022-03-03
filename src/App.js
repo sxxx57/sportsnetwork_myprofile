@@ -4,9 +4,10 @@ import Toggle from "./component/toggle/toggle";
 import Greeting from "./component/greeting/greeting";
 import Greeting2 from "./component/greeting/greeting2";
 import Page from "./component/page";
+import BusinessPage from "./component/page2";
 
 import {BrowserRouter as Router, Switch,Route, Link} from "react-router-dom";
-import BusinessPage from "./component/page2";
+
 
 import React, {useState} from "react";
 
@@ -26,7 +27,9 @@ function App() {
             {toggled ? <Greeting2/> : <Greeting/>}
         </div>
         <Toggle onChange={(event)=>setToggled(event.target.checked)}/>
-        <Page/>
+        <div>
+            {toggled ? <BusinessPage/> : <Page/>}
+        </div>
     </div>
 
   );

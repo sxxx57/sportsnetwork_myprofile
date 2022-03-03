@@ -20,9 +20,9 @@ ul{
     padding: 0;
     width: 100%;
 }
-ul li .input-skill{
+ul li{
     align-items: center;
-    background: green;
+    background: orange;
     border-radius: 2px;
     color: #ffffff;
     list-style: none;
@@ -47,7 +47,9 @@ ul li button{
 ul .input-skill{
     background: none;
     flex-grow: 1;
+    width: 30%;
 }
+
 
 .interest-container{
     margin-top: 50px;

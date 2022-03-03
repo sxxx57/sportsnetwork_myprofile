@@ -56,7 +56,7 @@ class Hate extends Component {
                     <ul>
                         { skills.map((skill, i) => {
                             return (
-                                <li key={i}> {skill} <button onClick={() => this.removeSkill(i)}>+</button> </li>
+                                <li style={{ background: "red"}} key={i}> {skill} <button onClick={() => this.removeSkill(i)}>+</button> </li>
                             )
                         }) }
                         <li className="input-skill">
