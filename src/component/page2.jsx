@@ -5,7 +5,7 @@ import Hate from "./tags/dislike";
 import './page.css'
 import React, {Component} from "react";
 
-class Page extends Component{
+class BusinessPage extends Component{
     state ={}
     render(){
         return (
@@ -19,4 +19,4 @@ class Page extends Component{
     }
 }
 
-export default Page;
+export default BusinessPage;

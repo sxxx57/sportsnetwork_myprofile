@@ -5,6 +5,7 @@ class Greeting extends Component{
     render(){
         return (
             <div className="greeting-container">
+                <h1>Personal Mode</h1>
                 <h3 className="greeting-title">I'M PERSONALLY INTERESTED IN</h3>
                 <p className="content">We guessed some of your favourite activities here. <span>🙂 </span>Edit and add more to help people connect with you.</p>
             </div>
