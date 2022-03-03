@@ -1,0 +1,19 @@
+.greeting-container{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    width: fit-content;
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+    margin:  50px  50px  50px 50px;
+
+}
+.greeting-title{
+    text-align: center;
+}
+.greeting-content{
+    text-align: center;
+}
