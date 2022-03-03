@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './unsure.css';
+import './dislike.css';
 import image from'./image-hate.jpg'
 
 
@@ -49,9 +49,9 @@ class Hate extends Component {
     render() {
         const {skills} = this.state
         return (
-            <div className="unsure-container">
+            <div className="dislike-container">
                 <h1> Definitely not! </h1>
-                <img src={image} height={100} width={100} />
+                <img src={image} height={200} width={200} />
                 <div className="skill">
                     <ul>
                         { skills.map((skill, i) => {

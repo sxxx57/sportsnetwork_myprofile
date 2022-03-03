@@ -51,7 +51,7 @@ class Interets extends Component {
         return (
             <div className="interest-container">
                 <h1> I'm in </h1>
-                <img src={image} height={100} width={100} />
+                <img src={image} height={200} width={200} />
                 <div className="skill">
                     <ul>
                         { skills.map((skill, i) => {

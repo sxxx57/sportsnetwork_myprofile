@@ -2,15 +2,22 @@
     border-radius: 10px;
     border: 1px solid lightgray;
     padding: 20px;
-    align-items: center;
-    align-content: center;
+    margin: auto;
+    justify-content: center;
     background-color: white;
     width: fit-content;
     box-shadow: 10px 10px 10px gray;
     text-align: center;
-    margin:  50px  50px  50px 50px;
+
 
 }
+.personal-mode{
+    color:orange;
+}
+.business-mode{
+    color:lightseagreen;
+}
+
 .greeting-title{
     text-align: center;
 }

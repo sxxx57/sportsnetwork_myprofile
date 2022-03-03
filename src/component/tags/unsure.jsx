@@ -51,7 +51,7 @@ class Unsure extends Component {
         return (
             <div className="unsure-container">
                 <h1> Maybe </h1>
-                <img src={image} height={100} width={100} />
+                <img src={image} height={200} width={200} />
                 <div className="skill">
                     <ul>
                         { skills.map((skill, i) => {
